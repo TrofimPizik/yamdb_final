@@ -1,4 +1,4 @@
-[yamdb_workflow] (https://github.com/TrofimPizik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![yamdb_workflow] (https://github.com/TrofimPizik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 # REST API для сервиса **YamDb** 
 версия c Docker, Continuous Integration на GitHub Actions
