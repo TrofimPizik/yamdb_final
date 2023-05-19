@@ -1,2 +1,1 @@
-# yamdb_final
-yamdb_final
+ https://github.com/TrofimPizik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
