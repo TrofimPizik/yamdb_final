@@ -1,7 +1,8 @@
 import csv
-from django.core.management.base import BaseCommand, CommandError
+
 from django.core.exceptions import ObjectDoesNotExist
-from reviews.models import Review, Comment, User
+from django.core.management.base import BaseCommand, CommandError
+from reviews.models import Comment, Review, User
 
 
 class Command(BaseCommand):

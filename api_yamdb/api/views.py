@@ -1,4 +1,11 @@
 import django_filters
+from api.permissions import (AdminAccess, AdminOnly, AuthorAccess,
+                             ModeratorAccess)
+from api.serializers import (CategorySerializer, CommentSerializer,
+                             GenreSerializer, ReviewSerializer,
+                             SendTokenSerializer, SingUpSerializer,
+                             TitleAddSerializer, TitleSerializer,
+                             UserNotAdminSerializer, UserSerializer)
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.core.mail import send_mail
 from django.db.models import Avg, Q
@@ -11,16 +18,6 @@ from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
-
-from api.permissions import (
-    AuthorAccess, ModeratorAccess, AdminAccess, AdminOnly,
-)
-from api.serializers import (
-    CategorySerializer, CommentSerializer, GenreSerializer,
-    ReviewSerializer, SendTokenSerializer, SingUpSerializer,
-    TitleSerializer, TitleAddSerializer, UserNotAdminSerializer,
-    UserSerializer,
-)
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
