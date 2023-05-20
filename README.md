@@ -1,4 +1,4 @@
- ![example workflow] (https://github.com/TrofimPizik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![yamdb_workflow](https://github.com/TrofimPizik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 API развернут по адресу http://158.160.39.56/api/v1/
 
@@ -98,4 +98,4 @@ TELEGRAM_TOKEN # Токен бота
 
 #### Трофим Пизик
 #### Владислав Михалко
-#### Воробье
+#### Игорь Воробьев
