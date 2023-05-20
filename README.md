@@ -1,5 +1,7 @@
  ![example workflow] (https://github.com/TrofimPizik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+API развернут по адресу http://158.160.39.56/api/v1/
+
 # REST API для сервиса **YamDb** 
 версия c Docker, Continuous Integration на GitHub Actions
 
